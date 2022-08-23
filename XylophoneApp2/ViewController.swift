@@ -10,17 +10,36 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var cbutton: XButton!
+    @IBOutlet weak var bbutton: XButton!
+    @IBOutlet weak var abutton: XButton!
+    @IBOutlet weak var gbutton: XButton!
+    @IBOutlet weak var fbutton: XButton!
+    @IBOutlet weak var ebutton: XButton!
+    @IBOutlet weak var dbutton: XButton!
+    @IBOutlet weak var ccbutton: XButton!
+    
     var player : AVAudioPlayer!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        cbutton.xlabelText = "C"
+        bbutton.xlabelText = "B"
+        abutton.xlabelText = "A"
+        gbutton.xlabelText = "G"
+        fbutton.xlabelText = "F"
+        ebutton.xlabelText = "A"
+        dbutton.xlabelText = "D"
+        ccbutton.xlabelText = "Cc"
+        
     
         // Do any additional setup after loading the view.
     }
 
     @IBAction func ButtonPressed(_ sender: UIButton) {
-        playSound(soundName: sender.currentTitle!)
+        print(sender.titleLabel?.text)
     }
 
    

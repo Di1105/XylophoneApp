@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C823CB28B534B300FD950A /* Xbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C823CA28B534B300FD950A /* Xbutton.swift */; };
 		C6FC32E028B4EC2200DD17E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */; };
 		C6FC32E228B4EC2200DD17E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */; };
 		C6FC32E428B4EC2200DD17E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32E328B4EC2200DD17E7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C823CA28B534B300FD950A /* Xbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xbutton.swift; sourceTree = "<group>"; };
 		C6FC32DC28B4EC2200DD17E7 /* XylophoneApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XylophoneApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		C6FC32DE28B4EC2200DD17E7 /* XylophoneApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				12C823CA28B534B300FD950A /* Xbutton.swift */,
 				C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */,
 				C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */,
 				C6FC32E328B4EC2200DD17E7 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C823CB28B534B300FD950A /* Xbutton.swift in Sources */,
 				C6FC32E428B4EC2200DD17E7 /* ViewController.swift in Sources */,
 				C6FC32E028B4EC2200DD17E7 /* AppDelegate.swift in Sources */,
 				C6FC32E228B4EC2200DD17E7 /* SceneDelegate.swift in Sources */,

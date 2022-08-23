@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12C823CB28B534B300FD950A /* Xbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C823CA28B534B300FD950A /* Xbutton.swift */; };
+		12C823CD28B53AEF00FD950A /* XButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C823CC28B53AEF00FD950A /* XButton.xib */; };
+		12C823CF28B53C0000FD950A /* XButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C823CE28B53C0000FD950A /* XButton.swift */; };
 		C6FC32E028B4EC2200DD17E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */; };
 		C6FC32E228B4EC2200DD17E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */; };
 		C6FC32E428B4EC2200DD17E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC32E328B4EC2200DD17E7 /* ViewController.swift */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12C823CA28B534B300FD950A /* Xbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xbutton.swift; sourceTree = "<group>"; };
+		12C823CC28B53AEF00FD950A /* XButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XButton.xib; sourceTree = "<group>"; };
+		12C823CE28B53C0000FD950A /* XButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XButton.swift; sourceTree = "<group>"; };
 		C6FC32DC28B4EC2200DD17E7 /* XylophoneApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XylophoneApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +60,11 @@
 		C6FC32DE28B4EC2200DD17E7 /* XylophoneApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				12C823CA28B534B300FD950A /* Xbutton.swift */,
 				C6FC32DF28B4EC2200DD17E7 /* AppDelegate.swift */,
 				C6FC32E128B4EC2200DD17E7 /* SceneDelegate.swift */,
 				C6FC32E328B4EC2200DD17E7 /* ViewController.swift */,
+				12C823CC28B53AEF00FD950A /* XButton.xib */,
+				12C823CE28B53C0000FD950A /* XButton.swift */,
 				C6FC32E528B4EC2200DD17E7 /* Main.storyboard */,
 				C6FC32E828B4EC2400DD17E7 /* Assets.xcassets */,
 				C6FC32EA28B4EC2400DD17E7 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C823CD28B53AEF00FD950A /* XButton.xib in Resources */,
 				C6FC32EC28B4EC2400DD17E7 /* LaunchScreen.storyboard in Resources */,
 				C6FC32E928B4EC2400DD17E7 /* Assets.xcassets in Resources */,
 				C6FC32E728B4EC2200DD17E7 /* Main.storyboard in Resources */,
@@ -141,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C823CB28B534B300FD950A /* Xbutton.swift in Sources */,
+				12C823CF28B53C0000FD950A /* XButton.swift in Sources */,
 				C6FC32E428B4EC2200DD17E7 /* ViewController.swift in Sources */,
 				C6FC32E028B4EC2200DD17E7 /* AppDelegate.swift in Sources */,
 				C6FC32E228B4EC2200DD17E7 /* SceneDelegate.swift in Sources */,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,15 +22,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FYB-A6-ZG4" userLabel="C push">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-6f-77Z">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-6f-77Z" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="189" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lCw-PP-qUc"/>
@@ -48,16 +46,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbu-ca-EpC" userLabel="B push">
                                         <rect key="frame" x="0.0" y="103.5" width="414" height="93"/>
                                         <subviews>
-                                            <button autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkT-j8-oT4">
+                                            <button autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkT-j8-oT4" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="214" height="83"/>
                                                 <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="B">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RNJ-40-Ofn"/>
@@ -75,15 +71,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="drR-TP-Msh" userLabel="A push">
                                         <rect key="frame" x="0.0" y="207.5" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1M-rb-7Qs">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1M-rb-7Qs" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="239" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="A">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSy-Tt-awa"/>
@@ -101,15 +95,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRu-lG-5AD" userLabel="G push">
                                         <rect key="frame" x="0.0" y="311" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZo-a0-h0r">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZo-a0-h0r" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="274" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="G">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z03-lB-zrK"/>
@@ -127,15 +119,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vjL-s6-wfy" userLabel="F push">
                                         <rect key="frame" x="0.0" y="414.5" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9k-of-tmU" userLabel="F Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9k-of-tmU" userLabel="F Button" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="299" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="F">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPy-ID-ZjG"/>
@@ -153,15 +143,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8T-EX-etz" userLabel="E push">
                                         <rect key="frame" x="0.0" y="518" width="414" height="93"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhA-gh-UkR" userLabel="E Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhA-gh-UkR" userLabel="E Button" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="324" height="83"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="E">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UCn-Kr-m1z"/>
@@ -179,15 +167,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ovl-Eq-7mv" userLabel="D push">
                                         <rect key="frame" x="0.0" y="622" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-nG-YEp" userLabel="D Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-nG-YEp" userLabel="D Button" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="349" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="D">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eys-bK-CMT"/>
@@ -205,15 +191,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mr3-ur-yxd" userLabel="Cc push">
                                         <rect key="frame" x="0.0" y="725.5" width="414" height="92.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXy-OX-r5Q" userLabel="Cc Button">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXy-OX-r5Q" userLabel="Cc Button" customClass="XButton" customModule="XylophoneApp2" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="5" width="374" height="82.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Cc">
+                                                <buttonConfiguration key="configuration" style="plain">
                                                     <backgroundConfiguration key="background" cornerRadius="0.0">
                                                         <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="brc-iq-VlH"/>
@@ -240,6 +224,16 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="T44-jP-Lur" secondAttribute="bottom" id="iki-eZ-QIU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="abutton" destination="F1M-rb-7Qs" id="BFN-TW-qWW"/>
+                        <outlet property="bbutton" destination="BkT-j8-oT4" id="o5l-nZ-e4G"/>
+                        <outlet property="cbutton" destination="9Rj-6f-77Z" id="mZD-DT-PVQ"/>
+                        <outlet property="ccbutton" destination="EXy-OX-r5Q" id="t3z-zM-6uT"/>
+                        <outlet property="dbutton" destination="wv9-nG-YEp" id="M7o-vM-XGR"/>
+                        <outlet property="ebutton" destination="BhA-gh-UkR" id="z0I-lj-32H"/>
+                        <outlet property="fbutton" destination="x9k-of-tmU" id="byn-OY-2LY"/>
+                        <outlet property="gbutton" destination="HZo-a0-h0r" id="dU9-Hg-nbJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

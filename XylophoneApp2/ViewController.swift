@@ -15,8 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        aButton.xlabelText = "A"
-        aButton.xcolor = .purple
+    
         // Do any additional setup after loading the view.
     }
 

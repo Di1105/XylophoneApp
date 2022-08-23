@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ButtonPressed(_ sender: UIButton) {
-        playSound(soundName: sender.currentTitle!)
+        //playSound(soundName: sender.currentTitle!)
+        print(sender.titleLabel?.text ?? "default")
     }
 
    

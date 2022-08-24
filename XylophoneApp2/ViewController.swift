@@ -39,17 +39,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ButtonPressed(_ sender: XButton) {
-        playSound(soundName: sender.currentTitle!)
+        playSound(soundName: sender.xlabelText!)
         
     }
 
    
     
     func playSound(soundName:String) {
-        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
+        if let url = Bundle.main.url(forResource: soundName, withExtension: "wav"){
+            player = try! AVAudioPlayer(contentsOf: url)
         player.play()
-        
+        }else{
+            print("error")
+        }
 
     }
     

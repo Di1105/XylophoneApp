@@ -38,15 +38,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func ButtonPressed(_ sender: UIButton) {
-        //playSound(soundName: sender.currentTitle!)
-        print(sender.titleLabel?.text ?? "default")
+    @IBAction func ButtonPressed(_ sender: XButton) {
+        playSound(soundName: sender.currentTitle!)
+        
     }
 
    
     
     func playSound(soundName:String) {
-        let url = Bundle.main.url(forResource: soundName, withExtension: "mp3")
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
         

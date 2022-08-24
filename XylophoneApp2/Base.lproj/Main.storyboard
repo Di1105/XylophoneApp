@@ -26,9 +26,7 @@
                                                 <rect key="frame" x="20" y="5" width="189" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lCw-PP-qUc"/>
@@ -51,9 +49,7 @@
                                                 <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RNJ-40-Ofn"/>
@@ -75,9 +71,7 @@
                                                 <rect key="frame" x="20" y="5" width="239" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSy-Tt-awa"/>
@@ -99,9 +93,7 @@
                                                 <rect key="frame" x="20" y="5" width="274" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z03-lB-zrK"/>
@@ -123,9 +115,7 @@
                                                 <rect key="frame" x="20" y="5" width="299" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPy-ID-ZjG"/>
@@ -147,9 +137,7 @@
                                                 <rect key="frame" x="20" y="5" width="324" height="83"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UCn-Kr-m1z"/>
@@ -171,9 +159,7 @@
                                                 <rect key="frame" x="20" y="5" width="349" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eys-bK-CMT"/>
@@ -195,9 +181,7 @@
                                                 <rect key="frame" x="20" y="5" width="374" height="82.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
-                                                    <backgroundConfiguration key="background" cornerRadius="0.0">
-                                                        <color key="backgroundColor" red="0.54560800149999999" green="0.27637313769999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </backgroundConfiguration>
+                                                    <backgroundConfiguration key="background" cornerRadius="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="brc-iq-VlH"/>

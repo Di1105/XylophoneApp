@@ -30,9 +30,19 @@ class ViewController: UIViewController {
         abutton.xlabelText = "A"
         gbutton.xlabelText = "G"
         fbutton.xlabelText = "F"
-        ebutton.xlabelText = "A"
+        ebutton.xlabelText = "E"
         dbutton.xlabelText = "D"
         ccbutton.xlabelText = "Cc"
+        
+        cbutton.backgroundColor = UIColor.gray
+        bbutton.backgroundColor = UIColor.orange
+        abutton.backgroundColor = UIColor.gray
+        gbutton.backgroundColor = UIColor.orange
+        fbutton.backgroundColor = UIColor.gray
+        ebutton.backgroundColor = UIColor.orange
+        dbutton.backgroundColor = UIColor.gray
+        ccbutton.backgroundColor = UIColor.orange
+        
         
     
         // Do any additional setup after loading the view.
